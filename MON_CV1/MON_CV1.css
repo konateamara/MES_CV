@@ -1,0 +1,169 @@
+
+.contenu{
+    position: relative;
+    max-width: 900px;
+    min-height: 1000px;
+    margin: auto;
+    background-color: rgb(52, 93, 207);
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    box-shadow:rgb(57, 57, 63) 2px 2px;
+    
+}
+.left_side{
+    position: relative;
+    background-color: #353535;
+    padding-right: 50px;  
+      
+}
+.right_side{
+    position: relative;
+    background-color: white;
+    padding-right: 30px;
+    max-width: 100%;
+}
+
+/*La partie left-side*/
+
+.img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: -30pxpx;
+}
+.contact ul li{
+    position: relative;
+    list-style-type: none;
+    margin: 8px ;
+    padding-left: 0px;
+    color: white;
+    line-height: 30PX;
+}
+.icon{
+    color:#FFFFFF;
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+/*LES TITRES*/
+.title {
+    padding-top: 5px;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    margin: 0px;
+    padding-right: 30px;
+    padding-left: 0px;
+    padding-inline: 15px;
+    
+}
+span{
+    color: #FFFFFF;
+}
+
+ul li{
+    color: #FFFFFF;
+    padding: 5px;
+    margin-top: 9px;
+    padding: 0px;
+    padding-left: 0px;
+    line-height: 20px;
+}
+ul{
+    padding: 20px;
+}
+#p1{
+    padding-left: 40px;
+}
+
+
+
+/*La partie right_side*/
+
+
+h1 {
+    text-transform: uppercase;
+    padding-left: 15px;
+    
+    padding-top: 20px;
+    color: #383838;
+}
+#ttp{
+    color: #000000;
+    font-weight: bold;
+    padding-left: 0px;
+    
+}
+.intro{
+    padding-left: 20px;
+    
+    
+    margin-bottom: 30px;
+    min-width: 50%;
+    max-width:100%;
+   
+}
+.section1{
+    
+    padding: 5px;
+    padding-left: 10px;
+}
+.min-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px;
+    color: #000000;
+}
+.section2{
+    padding-left: 10px;
+}
+.min-title-form{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.date-form{
+    color: #000000;
+    font-weight: bold;
+}
+#title2{
+    text-transform: uppercase;
+    background-color: #353535;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 0px;
+    color: white;
+    padding-right: 100px;
+    padding-left: 0px;
+    padding-inline: 30px;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 83%;
+}
+
+/*La partie responsive*/
+
+@media screen and (max-width: 912px)
+{
+    .contenu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1000px)
+{
+    .contenu{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 0px;
+        
+    }
+}
